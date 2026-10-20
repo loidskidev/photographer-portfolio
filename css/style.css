@@ -23,6 +23,27 @@
   color: var(--color-accent);
 }
 
+/* Hero */
+.hero-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+}
+
+.hero-subtitle {
+  font-family: var(--font-body);
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+  border-radius: 0.5rem; 
+}
+
 
 /* Footer */
 .site-footer {

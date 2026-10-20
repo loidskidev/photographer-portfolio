@@ -44,6 +44,39 @@
   border-radius: 0.5rem; 
 }
 
+/* About */
+.about-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.about-title {
+  font-family: var(--font-heading);
+}
+
+.about-text {
+  font-family: var(--font-body);
+}
+
+.approach-card {
+  background-color: var(--color-soft);
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  height: 100%;
+}
+
+.approach-card h3 {
+  font-family: var(--font-heading);
+}
+
+.about-contact {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.about-contact-title {
+  font-family: var(--font-heading);
+}
 
 /* Footer */
 .site-footer {

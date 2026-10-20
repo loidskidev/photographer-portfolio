@@ -101,6 +101,33 @@ body {
   height: 10rem;
 }
 
+/* Testimonials */
+.testimonials-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.testimonials-title {
+  font-family: var(--font-heading);
+}
+
+.testimonial-card {
+  background-color: var(--color-soft);
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  height: 100%;
+}
+
+.testimonial-quote {
+  font-style: italic;
+}
+
+.testimonial-name {
+  color: var(--color-accent);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
 /* Footer */
 .site-footer {
   background-color: var(--color-soft);

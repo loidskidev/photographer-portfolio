@@ -95,8 +95,75 @@
     </header>
     <main>
       <!-- Contact - Start -->
-      <!-- TBD - Planning Structure -- Brainstorming -->
-      <!-- Contact - End -->
+      <!-- TBD | Planning Structure | Brainstorming | Testing | Not Final yet -->
+      <section class="contact-section py-5" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h1 class="contact-title" id="contact-title">Get in Touch</h1>
+            <p class="contact-subtitle">
+              Planning a wedding, a portrait session or an event?
+              <br />
+              Send me a message and I'll reply within two business days.
+            </p>
+          </div>
+
+          <div class="col-lg-6 col-12 mx-auto">
+            <form id="contact-form">
+              <div class="row g-3">
+                <!-- Name Section -->
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    />
+                    <label for="name">Name</label>
+                  </div>
+                </div>
+                <!-- Email Address Section -->
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="Email Address"
+                      required
+                    />
+                    <label for="email">Email Address</label>
+                  </div>
+                </div>
+
+                <!-- Get in touch Section -->
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      placeholder="Tell me what you are inquiring about"
+                    ></textarea>
+                    <label for="message"
+                      >Tell me what you are inquiring about</label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Button after the Get in touch Section -->
+              <div class="col-lg-3 col-12 mt-3 ms-auto">
+                <button type="submit" class="btn btn-dark">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Contact - End -->
+      </section>
     </main>
 
     <!-- Footer - Start -->

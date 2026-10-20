@@ -1,3 +1,29 @@
+/* NavBar */
+.navbar {
+  background-color: var(--color-background);
+  /* background-color: var(--color-soft); */ 
+  /* 
+  Barbara: to test beige, comment out the first line and remove the comment marks from the second. 
+  Keep the one you like and delete these comments when we decide. 
+  */
+}
+
+.navbar-brand {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+}
+
+.navbar .nav-link {
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--color-accent);
+}
+
+
 /* Footer */
 .site-footer {
   background-color: var(--color-soft);

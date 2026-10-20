@@ -28,7 +28,7 @@ const photos = [
   // PORTRAITS
   {
     id: 4,
-    title: "Natural Beauty",
+    title: "Studio Elegance",
     category: "Portraits",
     image: "images/portfolio/portraits-first.jpg",
     alt: "A natural portrait photograph",
@@ -36,7 +36,7 @@ const photos = [
   },
   {
     id: 5,
-    title: "Beautiful Expressions",
+    title: "Moments in Nature",
     category: "Portraits",
     image: "images/portfolio/portraits-third.jpg",
     alt: "An expressive portrait photograph",
@@ -44,7 +44,7 @@ const photos = [
   },
   {
     id: 6,
-    title: "Simply You",
+    title: "Monochrome Elegance",
     category: "Portraits",
     image: "images/portfolio/portraits-second.jpg",
     alt: "A personal portrait photograph",
@@ -62,7 +62,7 @@ const photos = [
   },
   {
     id: 8,
-    title: "Unforgettable Moments",
+    title: "Fashion Show",
     category: "Events",
     image: "images/portfolio/event-first.jpg",
     alt: "A special event captured in a photograph",
@@ -70,7 +70,7 @@ const photos = [
   },
   {
     id: 9,
-    title: "Moments Together",
+    title: "An Unforgettable Moment",
     category: "Events",
     image: "images/portfolio/event-second.jpg",
     alt: "A memorable event moment",

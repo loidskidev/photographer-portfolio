@@ -64,3 +64,46 @@
   font-size: 1.25rem;
   height: 100%;
 }
+
+/* Portfolio Gallery */
+.portfolio-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.portfolio-title {
+  font-family: var(--font-heading);
+}
+
+.portfolio-subtitle {
+  font-family: var(--font-body);
+}
+
+.gallery-card {
+  background-color: var(--color-soft);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  height: 100%;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-info {
+  padding: 1rem;
+}
+
+.gallery-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+}
+
+.gallery-category {
+  font-family: var(--font-body);
+  color: var(--color-accent);
+  margin-bottom: 0;
+}

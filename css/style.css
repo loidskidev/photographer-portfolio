@@ -26,21 +26,41 @@
 
 .footer-socials a {
   color: var(--color-accent);
-  font-size: 1.5rem;
   text-decoration: none;
   transition: color 0.2s ease;
+  font-size: 1.5rem;
 }
 
 .footer-socials a:hover {
   color: var(--color-text);
-}
-
-.footer-socials a:focus-visible {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 4px;
+  text-decoration: underline;
 }
 
 .footer-copyright {
   font-size: 0.85rem;
   margin-bottom: 0;
+}
+/* Clients Section */
+.clients-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.clients-title {
+  font-family: var(--font-heading);
+  margin-bottom: 0.75rem;
+}
+
+.clients-subtitle {
+  font-family: var(--font-body);
+  margin-bottom: 2rem;
+}
+
+.client-card {
+  background-color: var(--color-soft);
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  height: 100%;
 }

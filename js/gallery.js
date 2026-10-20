@@ -18,7 +18,7 @@ function renderGallery(category = "all") {
   filteredPhotos.forEach((photo) => {
     galleryContainer.innerHTML += `
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="gallery-card">
+        <a href="details.html?id=${photo.id}" class="gallery-card gallery-link">
           <img
             src="${photo.image}"
             alt="${photo.alt}"
@@ -29,7 +29,7 @@ function renderGallery(category = "all") {
             <h2 class="gallery-title">${photo.title}</h2>
             <p class="gallery-category">${photo.category}</p>
           </div>
-        </div>
+        </a>
       </div>
     `;
   });

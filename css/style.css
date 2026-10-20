@@ -141,3 +141,79 @@
   outline: 3px solid var(--color-text);
   outline-offset: 3px;
 }
+
+/* Gallery Card Links */
+.gallery-link,
+.gallery-link:visited,
+.gallery-link:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.gallery-link .gallery-title {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+}
+
+.gallery-link .gallery-category {
+  font-family: var(--font-body);
+  color: var(--color-accent);
+}
+
+.gallery-link:hover .gallery-title {
+  color: var(--color-accent);
+}
+
+/* Photo Details Page */
+.details-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 80vh;
+  font-family: var(--font-body);
+}
+
+.details-back {
+  display: inline-block;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s ease;
+}
+
+.details-back:hover {
+  color: var(--color-text);
+}
+
+.details-back:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+.details-image {
+  display: block;
+  width: 100%;
+  max-height: 650px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.details-category {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.details-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1.5rem;
+}
+
+.details-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}

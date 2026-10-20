@@ -78,6 +78,17 @@
   font-family: var(--font-heading);
 }
 
+/* Contact */
+.contact-section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+.contact-title {
+  font-family: var(--font-heading);
+}
+
 /* Footer */
 .site-footer {
   background-color: var(--color-soft);

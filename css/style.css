@@ -1,12 +1,16 @@
-/* Page */
+/* 
+===================================================
+EMRE'S PART | Home, About, Contact, navbar, buttons
+===================================================
+*/ 
+
+/* Page | Background behind every page */
 body {
   background-color: var(--color-soft);
-  /*
-  Barbara: this fills the white strip under the footer on short pages like Contact.
-  */
+  /* Beige page background fills the white strip under the footer on short pages */
 }
 
-/* NavBar */
+/* NavBar | Beige bar, logo font, rose links on hover and on the active page */
 .navbar {
   background-color: var(--color-soft);
 }
@@ -26,7 +30,7 @@ body {
   color: var(--color-accent);
 }
 
-/* Buttons */
+/* Buttons | Rose main buttons with a dark brown hover, all pages */
 .btn-rose {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
@@ -39,7 +43,7 @@ body {
   color: white;
 }
 
-/* Hero */
+/* Hero | Home: top section with title, button and photo */
 .hero-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -60,7 +64,7 @@ body {
   border-radius: 0.5rem;
 }
 
-/* About */
+/* About | About Page: intro, Lena's photo, approach cards and contact call */
 .about-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -98,7 +102,7 @@ body {
   max-width: 250px;
 }
 
-/* Contact */
+/* Contact | Contact Page: form section, title and message box */
 .contact-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -109,11 +113,12 @@ body {
   font-family: var(--font-heading);
 }
 
+/* The ID beats Bootstrap's .form-floating height, so the message box is taller */
 #message {
   height: 10rem;
 }
 
-/* Testimonials */
+/* Testimonials | Home: client quotes in beige cards */
 .testimonials-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -140,7 +145,13 @@ body {
   margin-bottom: 0;
 }
 
-/* Footer */
+/* 
+====================================================
+BARBARA'S PART | Footer, Clients, Portfolio, Details
+====================================================
+*/ 
+
+/* Footer | All pages: name, tagline, social icons, copyright */
 .site-footer {
   background-color: var(--color-soft);
   color: var(--color-text);
@@ -182,7 +193,8 @@ body {
   font-size: 0.85rem;
   margin-bottom: 0;
 }
-/* Clients Section */
+
+/* Clients | Home "Trusted By" names in beige cards */
 .clients-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -207,7 +219,7 @@ body {
   height: 100%;
 }
 
-/* Portfolio Gallery */
+/* Gallery | Portfolio page: photo cards with title and category */
 .portfolio-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -250,7 +262,7 @@ body {
   margin-bottom: 0;
 }
 
-/* Portfolio Filters */
+/* Filters | Round category buttons, rose when hovered or active */
 .portfolio-filters {
   margin-bottom: 2rem;
 }
@@ -284,7 +296,7 @@ body {
   outline-offset: 3px;
 }
 
-/* Gallery Card Links */
+/* Gallery Links | Makes each card clickable without blue link styling */
 .gallery-link,
 .gallery-link:visited,
 .gallery-link:hover {
@@ -306,7 +318,7 @@ body {
   color: var(--color-accent);
 }
 
-/* Photo Details Page */
+/* Details | Details page: back link, big photo, title and text */
 .details-section {
   background-color: var(--color-background);
   color: var(--color-text);
@@ -360,9 +372,9 @@ body {
   line-height: 1.8;
 }
 
-/* Responsive Portfolio Layout */
+/* Responsive | Phone and tablet fixes */
 
-/* Mobile: up to 575px */
+/* Phone | up to 575px: smaller logo and title, no overflow */
 @media (max-width: 575px) {
   /* Navbar */
   .navbar-brand {
@@ -401,7 +413,7 @@ body {
   }
 }
 
-/* Tablet: 576px to 991px */
+/* Tablet | 576px to 991px: wider gallery, centered filters */
 @media (min-width: 576px) and (max-width: 991px) {
   .portfolio-section .container {
     max-width: 100%;

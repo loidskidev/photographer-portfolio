@@ -387,8 +387,7 @@ BARBARA'S PART | Footer, Clients, Portfolio, Details
 
   /* Prevent portfolio overflow */
   .portfolio-section,
-  .portfolio-section .container,
-  #portfolio-gallery {
+  .portfolio-section .container {
     min-width: 0;
     max-width: 100%;
   }

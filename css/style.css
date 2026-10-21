@@ -348,8 +348,11 @@ body {
   line-height: 1.8;
 }
 
-/* Mobile navbar adjustment */
+/* Responsive Portfolio Layout */
+
+/* Mobile: up to 575px */
 @media (max-width: 575px) {
+  /* Navbar */
   .navbar-brand {
     font-size: 1rem;
     white-space: normal;
@@ -357,10 +360,8 @@ body {
     flex: 1;
     min-width: 0;
   }
-}
 
-/* Prevent portfolio content from overflowing on mobile */
-@media (max-width: 575px) {
+  /* Prevent portfolio overflow */
   .portfolio-section,
   .portfolio-section .container,
   #portfolio-gallery {
@@ -377,12 +378,8 @@ body {
   .portfolio-subtitle {
     overflow-wrap: break-word;
   }
-}
 
-/* Responsive Portfolio Layout */
-
-/* Mobile: up to 575px */
-@media (max-width: 575px) {
+  /* Portfolio layout */
   .portfolio-title {
     font-size: 2rem;
   }

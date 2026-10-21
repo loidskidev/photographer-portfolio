@@ -8,12 +8,7 @@ body {
 
 /* NavBar */
 .navbar {
-  background-color: var(--color-background);
-  /* background-color: var(--color-soft); */
-  /* 
-  Barbara: to test beige, comment out the first line and remove the comment marks from the second. 
-  Keep the one you like and delete these comments when we decide. 
-  */
+  background-color: var(--color-soft);
 }
 
 .navbar-brand {
@@ -29,6 +24,19 @@ body {
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
   color: var(--color-accent);
+}
+
+/* Buttons */
+.btn-rose {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: white;
+}
+
+.btn-rose:hover {
+  background-color: var(--color-text);
+  border-color: var(--color-text);
+  color: white;
 }
 
 /* Hero */

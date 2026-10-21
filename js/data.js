@@ -5,7 +5,7 @@ const photos = [
     title: "Wedding Moments",
     category: "Weddings",
     image: "images/portfolio/wedding-third.jpg",
-    alt: "A special moment from a wedding",
+    alt: "Bride and groom embracing outdoors in warm sunlight, with the bride's veil flowing around them",
     description: "Beautiful memories from a day filled with love.",
   },
   {
@@ -13,7 +13,7 @@ const photos = [
     title: "A Day to Remember",
     category: "Weddings",
     image: "images/portfolio/wedding-first.jpg",
-    alt: "A romantic wedding moment",
+    alt: "Close-up of a bride and her partner holding hands",
     description: "Capturing the emotions and joy of a special day.",
   },
   {
@@ -21,7 +21,7 @@ const photos = [
     title: "Love and Celebration",
     category: "Weddings",
     image: "images/portfolio/wedding-second.jpg",
-    alt: "A beautiful moment during a wedding celebration",
+    alt: "Bride and groom standing outdoors in wedding attire beside a castle",
     description: "Timeless memories of love and happiness.",
   },
 
@@ -31,7 +31,7 @@ const photos = [
     title: "Studio Elegance",
     category: "Portraits",
     image: "images/portfolio/portraits-first.jpg",
-    alt: "A natural portrait photograph",
+    alt: "Studio portrait of a red-haired woman wearing red lipstick and elegant makeup",
     description: "Capturing personality and beauty in a timeless portrait.",
   },
   {
@@ -39,7 +39,7 @@ const photos = [
     title: "Moments in Nature",
     category: "Portraits",
     image: "images/portfolio/portraits-third.jpg",
-    alt: "An expressive portrait photograph",
+    alt: "Close-up outdoor portrait of a woman with her eyes closed, head tilted upward, and a daisy tucked behind her ear",
     description: "A portrait celebrating individuality and authentic moments.",
   },
   {
@@ -47,7 +47,7 @@ const photos = [
     title: "Monochrome Elegance",
     category: "Portraits",
     image: "images/portfolio/portraits-second.jpg",
-    alt: "A personal portrait photograph",
+    alt: "Black-and-white side-profile studio portrait of a woman wearing an elegant outfit and subtle makeup",
     description: "Natural and elegant portraits that tell a personal story.",
   },
 
@@ -57,7 +57,7 @@ const photos = [
     title: "Special Celebration",
     category: "Events",
     image: "images/portfolio/event-third.jpg",
-    alt: "A memorable moment at an event",
+    alt: "Two women celebrating a birthday as colorful confetti falls around them",
     description: "Capturing the atmosphere of a special celebration.",
   },
   {
@@ -65,7 +65,7 @@ const photos = [
     title: "Fashion Show",
     category: "Events",
     image: "images/portfolio/event-first.jpg",
-    alt: "A special event captured in a photograph",
+    alt: "Fashion model walking down a runway during a fashion show, with the audience watching",
     description: "Beautiful memories from meaningful occasions.",
   },
   {
@@ -73,7 +73,7 @@ const photos = [
     title: "An Unforgettable Moment",
     category: "Events",
     image: "images/portfolio/event-second.jpg",
-    alt: "A memorable event moment",
+    alt: "A man dressed in royal-style clothing celebrating during a ceremony",
     description: "Preserving the joy and energy of life's celebrations.",
   },
 
@@ -83,7 +83,7 @@ const photos = [
     title: "Together Forever",
     category: "Couples",
     image: "images/portfolio/couples-first.jpg",
-    alt: "A romantic photograph of a couple",
+    alt: "A couple walking hand in hand across a bridge with a dog between them, overlooking the sea in a Mediterranean setting",
     description: "Capturing the beautiful connection between two people.",
   },
   {
@@ -91,7 +91,7 @@ const photos = [
     title: "Love in Every Moment",
     category: "Couples",
     image: "images/portfolio/couples-second.jpg",
-    alt: "A couple sharing a special moment",
+    alt: "Two hands forming a heart shape with the setting sun visible in the center, above the sea",
     description: "Natural and heartfelt moments of love and togetherness.",
   },
   {
@@ -99,7 +99,7 @@ const photos = [
     title: "Just the Two of Us",
     category: "Couples",
     image: "images/portfolio/couples-third.jpg",
-    alt: "A couple enjoying a moment together",
+    alt: "A couple sitting on the beach at dusk, embracing and looking at each other with string lights draped around their necks",
     description: "Timeless memories of genuine love and connection.",
   },
 ];

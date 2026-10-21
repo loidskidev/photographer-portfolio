@@ -16,6 +16,9 @@ sendBtn.addEventListener("click", function (e) {
   } else if (emailInput.value.indexOf("@") == -1) {
     formMessage.textContent = "Please enter a valid email address.";
     formMessage.style.color = "red";
+  } else if (emailInput.value.indexOf(".") == -1) {
+    formMessage.textContent = "Please enter a valid email address.";
+    formMessage.style.color = "red";
   } else if (messageInput.value == "") {
     formMessage.textContent = "Please write a short message.";
     formMessage.style.color = "red";

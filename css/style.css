@@ -378,3 +378,35 @@ body {
     overflow-wrap: break-word;
   }
 }
+
+/* Responsive Portfolio Layout */
+
+/* Mobile: up to 575px */
+@media (max-width: 575px) {
+  .portfolio-title {
+    font-size: 2rem;
+  }
+
+  .portfolio-filters {
+    gap: 0.5rem;
+  }
+}
+
+/* Tablet: 576px to 991px */
+@media (min-width: 576px) and (max-width: 991px) {
+  .portfolio-section .container {
+    max-width: 100%;
+  }
+
+  .portfolio-title {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-filters {
+    justify-content: center;
+  }
+
+  .gallery-image {
+    height: 250px;
+  }
+}

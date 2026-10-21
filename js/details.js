@@ -11,7 +11,7 @@ if (detailsContainer && typeof photos !== "undefined") {
 
   if (selectedPhoto) {
     detailsContainer.innerHTML = `
-      <div class="row align-items-center g-5">
+      <div class="row align-items-center g-4">
         <div class="col-12 col-lg-7">
           <img
             src="${selectedPhoto.image}"

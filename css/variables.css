@@ -1,8 +1,22 @@
+/* :root is the top of every page (the html element)
+Variables here can be used in every CSS file with var(--name),
+so a colour or font is changed in one place only. */
+
 :root {
+    /* Colours 
+    - Background: cream #FAF6F1 (sections) 
+    - Soft: beige #E8D9CC (page background, navbar, cards, footer) 
+    - Text: dark warm brown #3B302A
+    - Accent: dusty rose #9A5F5B (buttons, links, active nav)
+    Contrast checked: dark text on cream and white text on the rose 
+    button are both easy to read, which matters for accessibility. */
     --color-background: #FAF6F1;
     --color-soft: #E8D9CC;
     --color-text: #3B302A;
     --color-accent: #9A5F5B;
+    /* Fonts (Google Fonts)
+    - Headings: Playfair Display (elegant, like a wedding invitation) 
+    - Body text: Lato (clean and easy to read) */ 
     --font-heading: "Playfair Display", serif;
     --font-body: "Lato", sans-serif;
 }

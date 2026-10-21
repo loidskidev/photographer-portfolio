@@ -86,6 +86,10 @@ body {
   font-family: var(--font-heading);
 }
 
+.about-photo {
+  max-width: 250px;
+}
+
 /* Contact */
 .contact-section {
   background-color: var(--color-background);
